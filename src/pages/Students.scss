@@ -1,0 +1,16 @@
+.create_button{
+    background-color: green !important;
+}
+//table thead tr td {
+  //  color: blue;
+//}
+table {
+    margin-top: 200px;
+    thead{
+        tr {
+            td{
+                color: blue;
+            }
+        }
+    }
+}
