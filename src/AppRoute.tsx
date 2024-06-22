@@ -7,6 +7,8 @@ import {
     Students,
     UpdateStudent,
 } from "./pages";
+import Todo from "./pages/Todo";
+import Test1 from "./pages/Test1";
 
 const AppRoute: React.FC =() => {
     return (
@@ -16,7 +18,10 @@ const AppRoute: React.FC =() => {
                <Route path="" element={<Students />}/>
                <Route path="create-student" element={<CreateStudent />} />
                <Route path="<update-student/:studentID" element={<UpdateStudent />} />
+            
             </Route>
+            <Route path="todo" element={<Todo />} />
+            <Route path="test1" element={<Test1 />}/>
         </Routes>
     );
 };
